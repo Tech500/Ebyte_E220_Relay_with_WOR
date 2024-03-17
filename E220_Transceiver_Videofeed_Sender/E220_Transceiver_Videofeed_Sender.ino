@@ -23,8 +23,8 @@
 #define AUX GPIO_NUM_15
 
 // Replace with your network details
-const char *ssid = "R2D2";
-const char *password = "sissy4357";
+const char *ssid = "yourSSID";
+const char *password = "yourNetworkPassword";
 
 WiFiClient client;
 
