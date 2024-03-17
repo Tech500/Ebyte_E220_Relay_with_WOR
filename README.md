@@ -1,5 +1,5 @@
 # Ebyte_E220_Relay_with_WOR
-Uses two Ebyte E220-900T30D radio transceivers to control a relay.  WOR is used to wake microcontroller.
+Uses two Ebyte E220-900T30D radio transceivers to control a relay.  WOR is used to wake E220 receiver and microcontroller.
 
 Completed coding of Eybte’s E220 radio for remotely switching power to video camera by web browser request.  Asyncwebserver request turns on camera power and starts
 countdown timer for a set viewing time.  When web request arrives; WOR (Wake on Radio) awakens E220 rreceiver and deep sleeping ESP32,  relay for camera power energizes. When countdown 
