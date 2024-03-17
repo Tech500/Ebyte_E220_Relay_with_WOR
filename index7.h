@@ -13,7 +13,7 @@ const char HTML7[] PROGMEM = R"====(
       <br><br>
     </header>
     <main>
-      <iframe class="iframe" width="1300" height="731"src="http://c600.duckdns.org:8889/wyze-cam-v3/" frameborder="0"></iframe> 
+      <iframe class="iframe" width="1300" height="731"src="url path to camera:port/cameraName/" frameborder="0"></iframe> 
     </main>
     <footer>
       <h2><a href="server return link goes here... " >ESP32 Server</a></h2>  
