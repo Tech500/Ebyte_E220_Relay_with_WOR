@@ -8,4 +8,4 @@ timer expires relay turns off camera power conserving battery.
 Advantage of Ebyte E220-900T30D is the WOR feature; allows the sender E220 to wake up the receiving E220.  Current spec for transceiver in sleep mode is 2 uA.  Same signal used to wake up E220
 receiver is used to wake micrcontroller; in this case an ESP32.
 
-file index7.h is html page for video camera; imported by E220_Transceiver_Videofeed_Sender.ino.
+File index7.h is html page for video camera; imported into memory, by E220_Transceiver_Videofeed_Sender.ino.
