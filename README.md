@@ -9,3 +9,9 @@ Advantage of Ebyte E220-900T30D is the WOR feature; allows the sender E220 to wa
 receiver is used to wake micrcontroller; in this case an ESP32.
 
 File index7.h is html page for video camera; imported into memory, by E220_Transceiver_Videofeed_Sender.ino.
+
+Before running sender and receiver sketches; run the next two sketches.
+
+Need to run "01_setConfiguration_WOR_Sender.ino" to configure sender for Wake on Radio.
+
+Next run "01_setConfiguration_WOR_Receiver.ino" to configure receiver for wake on Radio.
