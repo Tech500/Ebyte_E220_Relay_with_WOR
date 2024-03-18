@@ -44,6 +44,8 @@
 
 #define relayPin 17
 
+int data;
+
 struct Message {
  int switchState;
 } message;
@@ -68,8 +70,6 @@ void print_wakeup_reason() {
     default: Serial.printf("Wakeup was not caused by deep sleep: %d\n", wakeup_reason); break;
   }
 }
-
-int data;
 
 RTC_DATA_ATTR int bootCount = 0;
 
