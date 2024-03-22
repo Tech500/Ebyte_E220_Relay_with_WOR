@@ -15,3 +15,6 @@ Before running sender and receiver sketches; run the next two sketches.
 Need to run "01_setConfiguration_WOR_Sender.ino" to configure sender for Wake on Radio.
 
 Next run "01_setConfiguration_WOR_Receiver.ino" to configure receiver for wake on Radio.
+
+
+"Documentation of E220-900T30D Project Code.pdf" URL links only active when downloaded.
