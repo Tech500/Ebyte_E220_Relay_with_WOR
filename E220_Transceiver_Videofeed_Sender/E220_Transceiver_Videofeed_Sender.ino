@@ -88,7 +88,7 @@ void setup() {
   Serial.println("Hi, I'm going to send WOR message!");
 
   // Send message
-  ResponseStatus rs = e220ttl.sendFixedMessage(0, DESTINATION_ADDL, 23, "Hello, world? WOR!");
+  ResponseStatus rs = e220ttl.sendFixedMessage(0, DESTINATION_ADDL, 68, "Hello, world? WOR!");
   // Check If there is some problem of succesfully send
   Serial.println(rs.getResponseDescription());
 
@@ -133,7 +133,7 @@ void loop() {
 	  message.switchState = Serial.parseInt();
 
 	  // Send message
-	  ResponseStatus rs = e220ttl.sendFixedMessage(0, 2, 23, &message, sizeof(Message));
+	  ResponseStatus rs = e220ttl.sendFixedMessage(0, 2, 68, &message, sizeof(Message));
 
 	  // Check If there is some problem of succesfully send
 	  Serial.println(rs.getResponseDescription());
@@ -187,7 +187,7 @@ void switchOne(int data) {
 	Serial.println("Hi, I'm going to send message!");
 
 	// Send message
-	ResponseStatus rs = e220ttl.sendFixedMessage(0, DESTINATION_ADDL, 23, &message, sizeof(Message));
+	ResponseStatus rs = e220ttl.sendFixedMessage(0, DESTINATION_ADDL, 68, &message, sizeof(Message));
 	// Check If there is some problem of succesfully send
 	Serial.println(rs.getResponseDescription());
 }
