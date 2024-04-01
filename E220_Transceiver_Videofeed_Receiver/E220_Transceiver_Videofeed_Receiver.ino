@@ -115,6 +115,8 @@ void setup()
   if (ESP_SLEEP_WAKEUP_EXT0 == wakeup_reason) {
       Serial.println("Waked up from external GPIO!");
 
+      esp_sleep_pd_config(ESP_PD_DOMAIN_RTC_PERIPH, ESP_PD_OPTION_ON);
+
       gpio_hold_dis(GPIO_NUM_21);
       gpio_hold_dis(GPIO_NUM_19);
 
@@ -124,7 +126,7 @@ void setup()
 
       delay(1000);
 
-      e220ttl.sendFixedMessage(0, DESTINATION_ADDL, 23, "We have waked up from message, but we can't read It!");
+      e220ttl.sendFixedMessage(0, DESTINATION_ADDL, 68, "We have waked up from message, but we can't read It!");
   }else{
       e220ttl.setMode(MODE_2_POWER_SAVING);
 
@@ -150,7 +152,7 @@ void loop()
 
       delay(1000);
 
-      ResponseStatus rsSend = e220ttl.sendFixedMessage(0, DESTINATION_ADDL, 23, "We have received the message!");
+      ResponseStatus rsSend = e220ttl.sendFixedMessage(0, DESTINATION_ADDL, 68, "We have received the message!");
       // Check If there is some problem of succesfully send
       Serial.println(rsSend.getResponseDescription());
 
