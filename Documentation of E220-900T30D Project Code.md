@@ -5,7 +5,7 @@ This document outlines the setup and usage of the Ebyte LoRa E220 device with Ar
 ### Renzo Mischianti's E220 Resources
 
   * **Ebyte LoRa E220 Articles**:
-      [Settings and basic usage](https://www.google.com/search?q=https://www.mischianti.org/2021/03/12/ebyte-lora-e220-device-for-arduino-esp32-or-esp8266-settings-and-basic-usage/)
+      * [Settings and basic usage](https://www.google.com/search?q=https://www.mischianti.org/2021/03/12/ebyte-lora-e220-device-for-arduino-esp32-or-esp8266-settings-and-basic-usage/)
       * [Library](https://www.google.com/search?q=https://www.mischianti.org/2021/03/17/ebyte-lora-e220-device-for-arduino-esp32-or-esp8266-library/)
       * [Configuration](https://www.google.com/search?q=https://www.mischianti.org/2021/03/22/ebyte-lora-e220-device-for-arduino-esp32-or-esp8266-configuration/)
       * [Fixed transmission, broadcast, monitor, and RSSI](https://www.google.com/search?q=https://www.mischianti.org/2021/03/24/ebyte-lora-e220-device-for-arduino-esp32-or-esp8266-fixed-transmission-broadcast-monitor-and-rssi/)
