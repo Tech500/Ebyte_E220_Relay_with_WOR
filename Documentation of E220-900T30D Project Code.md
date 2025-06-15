@@ -2,14 +2,14 @@
 
 ## Renzo Mischianti's E220 Articles
 
-- [Settings and Basic Usage](https://mischianti.org/2021/03/12/ebyte-lora-e220-device-for-arduino-esp32-or-esp8266-settings-and-basic-usage/)
-- [Library](https://mischianti.org/2021/03/17/ebyte-lora-e220-device-for-arduino-esp32-or-esp8266-library/)
-- [Configuration](https://mischianti.org/2021/03/22/ebyte-lora-e220-device-for-arduino-esp32-or-esp8266-configuration/)
-- [Fixed Transmission, Broadcast, Monitor, and RSSI](https://mischianti.org/2021/03/24/ebyte-lora-e220-device-for-arduino-esp32-or-esp8266-fixed-transmission-broadcast-monitor-and-rssi/)
-- [Power-Saving and Sending Structured Data](https://mischianti.org/2021/03/29/ebyte-lora-e220-device-for-arduino-esp32-or-esp8266-power-saving-and-sending-structured-data/)
-- [WOR Microcontroller and Arduino Shield](https://mischianti.org/2021/04/05/ebyte-lora-e220-device-for-arduino-esp32-or-esp8266-wor-microcontroller-and-arduino-shield/)
-- [WOR Microcontroller and WeMos D1 Shield](https://mischianti.org/2021/04/07/ebyte-lora-e220-device-for-arduino-esp32-or-esp8266-wor-microcontroller-and-wemos-d1-shield/)
-- [WOR Microcontroller and ESP32 Dev V1 Shield](https://mischianti.org/2021/04/12/ebyte-lora-e220-device-for-arduino-esp32-or-esp8266-wor-microcontroller-and-esp32-dev-v1-shield/)
+- [Settings and Basic Usage](https://mischianti.org/ebyte-lora-e220-llcc68-device-for-arduino-esp32-or-esp8266-specs-and-basic-use-1/)
+- [Library](https://mischianti.org/ebyte-lora-e220-llcc68-device-for-arduino-esp32-or-esp8266-library-2/)
+- [Configuration](https://mischianti.org/ebyte-lora-e220-llcc68-device-for-arduino-esp32-or-esp8266-configuration-3/)
+- [Fixed Transmission, Broadcast, Monitor, and RSSI](https://mischianti.org/ebyte-lora-e220-device-for-arduino-esp32-or-esp8266-fixed-transmission-broadcast-monitor-and-rssi-4/)
+- [Power-Saving and Sending Structured Data](https://mischianti.org/ebyte-lora-e220-device-for-arduino-esp32-or-esp8266-manage-wake-on-radio-and-sends-structured-data-5/)
+- [WOR Microcontroller and Arduino Shield](https://mischianti.org/lora-e32-device-for-arduino-esp32-or-esp8266-wor-wake-on-radio-the-microcontroller-also-and-new-arduino-shield-part-6/)
+- [WOR Microcontroller and WeMos D1 Shield](https://mischianti.org/lora-e32-device-for-arduino-esp32-or-esp8266-wor-wake-on-radio-microcontroller-and-new-wemos-d1-mini-shield-part-7/)
+- [WOR Microcontroller and ESP32 Dev V1 Shield](https://mischianti.org/ebyte-lora-e32-device-for-arduino-esp32-or-esp8266-wor-wake-on-radio-and-new-esp32-shield-8/)
 
 ## GitHub Resources
 
