@@ -5,23 +5,25 @@ This document outlines the setup and usage of the Ebyte LoRa E220 device with Ar
 ### Renzo Mischianti's E220 Resources
 
 * **Ebyte LoRa E220 Articles**:
-    * [Settings and basic usage](https://www.mischianti.org/2021/03/12/ebyte-lora-e220-device-for-arduino-esp32-or-esp8266-settings-and-basic-usage/)
-    * [Library](https://www.mischianti.org/2021/03/17/ebyte-lora-e220-device-for-arduino-esp32-or-esp8266-library/)
-    * [Configuration](https://www.mischianti.org/2021/03/22/ebyte-lora-e220-device-for-arduino-esp32-or-esp8266-configuration/)
-    * [Fixed transmission, broadcast, monitor, and RSSI](https://www.mischianti.org/2021/03/24/ebyte-lora-e220-device-for-arduino-esp32-or-esp8266-fixed-transmission-broadcast-monitor-and-rssi/)
-    * [Power-saving and sending structured data](https://www.mischianti.org/2021/03/29/ebyte-lora-e220-device-for-arduino-esp32-or-esp8266-power-saving-and-sending-structured-data/)
-    * [WOR microcontroller and Arduino shield](https://www.mischianti.org/2021/04/05/ebyte-lora-e220-device-for-arduino-esp32-or-esp8266-wor-microcontroller-and-arduino-shield/)
-    * [WOR microcontroller and WeMos D1 shield](https://www.mischianti.org/2021/04/07/ebyte-lora-e220-device-for-arduino-esp32-or-esp8266-wor-microcontroller-and-wemos-d1-shield/)
-    * [WOR microcontroller and ESP32 dev v1 shield](https://www.mischianti.org/2021/04/12/ebyte-lora-e220-device-for-arduino-esp32-or-esp8266-wor-microcontroller-and-esp32-dev-v1-shield/)
+    * [Settings and basic usage](https://mischianti.org/2021/03/12/ebyte-lora-e220-device-for-arduino-esp32-or-esp8266-settings-and-basic-usage/)
+    * [Library](https://mischianti.org/2021/03/17/ebyte-lora-e220-device-for-arduino-esp32-or-esp8266-library/)
+    * [Configuration](https://mischianti.org/2021/03/22/ebyte-lora-e220-device-for-arduino-esp32-or-esp8266-configuration/)
+    * [Fixed transmission, broadcast, monitor, and RSSI](https://mischianti.org/2021/03/24/ebyte-lora-e220-device-for-arduino-esp32-or-esp8266-fixed-transmission-broadcast-monitor-and-rssi/)
+    * [Power-saving and sending structured data](https://mischianti.org/2021/03/29/ebyte-lora-e220-device-for-arduino-esp32-or-esp8266-power-saving-and-sending-structured-data/)
+    * [WOR microcontroller and Arduino shield](https://mischianti.org/2021/04/05/ebyte-lora-e220-device-for-arduino-esp32-or-esp8266-wor-microcontroller-and-arduino-shield/)
+    * [WOR microcontroller and WeMos D1 shield](https://mischianti.org/2021/04/07/ebyte-lora-e220-device-for-arduino-esp32-or-esp8266-wor-microcontroller-and-wemos-d1-shield/)
+    * [WOR microcontroller and ESP32 dev v1 shield](https://mischianti.org/2021/04/12/ebyte-lora-e220-device-for-arduino-esp32-or-esp8266-wor-microcontroller-and-esp32-dev-v1-shield/)
 * [Github Ebyte E220 library](https://github.com/xreef/EByte_LoRa_E220_Series_Library)
 * [Mischianti Arduino LoRa shield (Open source)](https://github.com/xreef/Mischianti_Arduino_LoRa_E220_Shield)
 * [Mischianti WeMos LoRa shield (Open source)](https://github.com/xreef/Mischianti_WeMos_D1_mini_LoRa_E220_Shield)
 * [Mischianti ESP32 DOIT DEV KIT v1 shield (Open source)](https://github.com/xreef/Mischianti_ESP32_DOIT_DEVKIT_V1_LoRa_E220_Shield)
-* [Support Forum](https://www.mischianti.org/forums/forum/ebyte-e220-lora-e22-e22-series/)
+* [Support Forum](https://mischianti.org/forums/forum/ebyte-e220-lora-e22-e22-series/)
 
 ### Hardware Connections and Setup
 
-* [Fritzing diagram for the Doit ESP32 Devkit V1](https://www.mischianti.org/images/fritzing/ESP32_E220_bb.png)
+* [Fritzing diagram for the Doit ESP32 Devkit V1](https://mischianti.org/images/fritzing/ESP32_E220_bb.png)
+
+
 
 A similar connection schema for ESP32 is used, but RX2 and TX2 are utilized for RX and TX due to ESP32 having 3 Serial ports by default instead of SoftwareSerial.
 
