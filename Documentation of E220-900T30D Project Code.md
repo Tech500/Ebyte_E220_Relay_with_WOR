@@ -14,14 +14,15 @@
 ## GitHub Resources
 
 - [Ebyte E220 Library](https://github.com/xreef/EByte_LoRa_E220_Series_Library)
-- [Arduino LoRa Shield (Open Source)](https://github.com/xreef/Mischianti_Arduino_LoRa_E220_Shield)
-- [WeMos LoRa Shield (Open Source)](https://github.com/xreef/Mischianti_WeMos_D1_mini_LoRa_E220_Shield)
+- [Arduino LoRa Shield (Open Source)](https://www.pcbway.com/project/shareproject/LoRa_E32_Series_device_Arduino_shield.html)
+- [WeMos LoRa Shield (Open Source)](https://www.pcbway.com/project/shareproject/LoRa_ESP32_DEV_KIT_v1_shield_for_EByte_E32_E22__RF_8km_12km_range.html?from=mischianti05)
 - [ESP32 DOIT DEV KIT v1 Shield (Open Source)](https://github.com/xreef/Mischianti_ESP32_DOIT_DEVKIT_V1_LoRa_E220_Shield)
-- [Support Forum](https://mischianti.org/forums/forum/ebyte-e220-lora-e22-e22-series/)
+
+- [Support Forum](https://mischianti.org/forums/forum/mischiantis-libraries/ebyte-lora-e220-uart-devices-llcc68/)
 
 ## Hardware Connections and Setup
 
-- [Fritzing Diagram for ESP32 Devkit V1](https://mischianti.org/images/fritzing/ESP32_E220_bb.png)
+- [Fritzing Diagram for ESP32 Devkit V1](https://github.com/Tech500/Ebyte_E220_Relay_with_WOR/blob/main/E220-900T30D%20Fritzing%20Diagram.jpg)
 - ESP32 connection schema: Uses RX2 and TX2 since ESP32 lacks SoftwareSerial.
 
 ## Configuration Settings
